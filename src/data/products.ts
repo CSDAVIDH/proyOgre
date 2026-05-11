@@ -6,7 +6,7 @@ export const products: Product[] = [
     name: "Polo Escolar Clásica",
     category: "escolares",
     description: "Camisa polo resistente para uso diario en instituciones educativas.",
-    image: "https://diariodeuberlandia.com.br/images/noticias/30536/23020141_large.jpg",
+    image: "https://s.alicdn.com/@sc04/kf/Hace9ba5e6104496798d2e85dc0e10e5c4/Custom-Summer-School-Kids-Children-s-Short-sleeved-T-shirt-Polo-Shirts-for-Boys-and-Girls-Kids-Polo-t-Shirt-School-Uniforms-Polo.jpg_300x300.jpg",
   },
   {
     id: "esc-02",
