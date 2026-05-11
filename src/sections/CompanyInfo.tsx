@@ -7,7 +7,6 @@ export default function CompanyInfo() {
     <section id="empresa" className="border-y border-white/10 bg-[#111111]">
       <div className="mx-auto w-full max-w-7xl px-4 py-16 md:px-8 md:py-24">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
-
           {/* Columna izquierda — Empresa */}
           <div>
             <h3 className="text-xl font-black uppercase leading-snug text-[#f97316] md:text-2xl">
@@ -61,25 +60,23 @@ export default function CompanyInfo() {
                 </a>
               </p>
               <p className="text-sm">
-                <span className="font-bold text-white">Site:</span>{" "}
+                <span className="font-bold text-white">Localização:</span>{" "}
                 <a
-                  href={`https://${company.website}`}
+                  href={company.locationCode}
                   target="_blank"
                   rel="noreferrer"
-                  className="transition-colors hover:text-[#f97316]"
+                  className="group inline-flex flex-col rounded px-1 transition-all duration-200 hover:bg-[#f97316]/15 hover:text-[#f97316]"
                 >
-                  {company.website}
+                  {company.address}
+                  <span className="text-[10px] font-semibold tracking-wide text-[#f97316] opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+                    → Ir a Google Maps
+                  </span>
                 </a>
-              </p>
-              <p className="text-sm">
-                <span className="font-bold text-white">Localização:</span>{" "}
-                {company.locationCode}
               </p>
               <p className="text-xs text-zinc-500">
                 Horário de referência: {company.schedule}
               </p>
             </div>
-
 
             <form className="space-y-4 rounded-xl border border-white/10 bg-white/5 p-5">
               <div>

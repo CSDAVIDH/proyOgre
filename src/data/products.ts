@@ -20,7 +20,7 @@ export const products: Product[] = [
     name: "Bata Educativa Premium",
     category: "escolares",
     description: "Bata de alta durabilidad para laboratorios y formación técnica.",
-    image: "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mhhusz4insw3a3.webp" ,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mhhusz4insw3a3.webp",
   },
   {
     id: "ind-01",
@@ -52,7 +52,7 @@ export const products: Product[] = [
   },
   {
     id: "cor-02",
-    name: "Blazer Empresarial ",
+    name: "Blazer Empresarial",
     category: "corporativos",
     description: "Acabado profesional para fortalecer presencia de marca.",
     image: "https://tfbsn4.vteximg.com.br/arquivos/ids/2193376/blazer-docthos-slim-sarja-poliamida-44-003-preto-frontal-inverno-2025-609-936289-003-1.jpg?v=638875473952900000",
