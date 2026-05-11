@@ -47,10 +47,6 @@ export default function CompanyInfo() {
 
             <div className="space-y-3 rounded-xl border border-white/10 bg-white/5 p-5">
               <p className="text-sm">
-                <span className="font-bold text-white">Endereço:</span>{" "}
-                {company.address}
-              </p>
-              <p className="text-sm">
                 <span className="font-bold text-white">Telefone:</span>{" "}
                 <a
                   href={`tel:${company.phone.replace(/\D/g, "")}`}
@@ -60,7 +56,7 @@ export default function CompanyInfo() {
                 </a>
               </p>
               <p className="text-sm">
-                <span className="font-bold text-white">Localização:</span>{" "}
+                <span className="font-bold text-white">Endereço:</span>{" "}
                 <a
                   href={company.locationCode}
                   target="_blank"

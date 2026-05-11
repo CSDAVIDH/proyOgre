@@ -1,7 +1,7 @@
 import { company } from "@/data/company";
 
 export default function WhatsAppButton() {
-  const href = `https://wa.me/55${company.phone.replace(/\D/g, "")}?text=Olá!%20Quero%20um%20orçamento%20de%20uniformes.`;
+  const href = `https://wa.me/${company.whatsappNumber}?text=Olá!%20Quero%20um%20orçamento%20de%20uniformes.`;
 
   return (
     <a
