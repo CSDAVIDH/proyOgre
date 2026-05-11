@@ -1,0 +1,4 @@
+- [x] Actualizar redes sociales a: TikTok, Instagram, Facebook, Twitter y YouTube en `src/sections/CompanyInfo.tsx`
+- [x] Reemplazar iconos/enlaces existentes por los 5 solicitados manteniendo estilo visual
+- [x] Verificar consistencia visual y estructura del bloque en la sección izquierda
+- [x] Marcar tareas completadas tras la edición

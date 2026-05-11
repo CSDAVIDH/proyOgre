@@ -1,0 +1,26 @@
+import SocialIcon from "@/components/SocialIcon";
+import { socialLinks } from "@/data/socialLinks";
+
+export default function SocialLinks() {
+  return (
+    <div className="mt-10 rounded-xl border border-white/10 bg-white/5 p-4">
+      <h5 className="text-sm font-black uppercase tracking-wide text-[#f97316]">
+        Redes Sociais
+      </h5>
+      <div className="mt-4 flex flex-wrap items-center gap-3">
+        {socialLinks.map((social) => (
+          <a
+            key={social.key}
+            href={social.href}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={social.label}
+            className={`inline-flex h-12 w-12 items-center justify-center rounded-full border bg-[#111111] transition-all hover:scale-105 hover:text-black ${social.variantClass}`}
+          >
+            <SocialIcon iconKey={social.key} />
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+}

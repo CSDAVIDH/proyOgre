@@ -1,0 +1,88 @@
+import type { Product } from "@/types/product";
+
+export const products: Product[] = [
+  {
+    id: "esc-01",
+    name: "Polo Escolar Clásica",
+    category: "escolares",
+    description: "Camisa polo resistente para uso diario en instituciones educativas.",
+    image: "https://diariodeuberlandia.com.br/images/noticias/30536/23020141_large.jpg",
+  },
+  {
+    id: "esc-02",
+    name: "Conjunto Escolar Deportivo",
+    category: "escolares",
+    description: "Set cómodo y transpirable para actividades físicas y recreación escolar.",
+    image: "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mfzwawe8g6bpfb@resize_w450_nl.webp",
+  },
+  {
+    id: "esc-03",
+    name: "Bata Educativa Premium",
+    category: "escolares",
+    description: "Bata de alta durabilidad para laboratorios y formación técnica.",
+    image: "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mhhusz4insw3a3.webp" ,
+  },
+  {
+    id: "ind-01",
+    name: "Uniforme Industrial Pro",
+    category: "industriales",
+    description: "Confección reforzada para ambientes de trabajo exigentes.",
+    image: "https://ropadetrabajoindustrial.com/wp-content/uploads/2024/03/uniformes-industriales-hombres-mujeres-768x402.jpg",
+  },
+  {
+    id: "ind-02",
+    name: "Camisa Operativa de Trabajo",
+    category: "industriales",
+    description: "Diseño ergonómico con costuras dobles y gran resistencia.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBBXNiRZEfSvr7ZWqQosfVnkw7dKerxYrihQ&s",
+  },
+  {
+    id: "ind-03",
+    name: "Conjunto Técnico Seguridad",
+    category: "industriales",
+    description: "Uniforme funcional para operación y mantenimiento industrial.",
+    image: "https://s.alicdn.com/@sc04/kf/Hcc05a5fbe23d4a4e86135a42026b36d06/New-Long-Sleeved-Retardant-One-piece-Coveralls-for-Welders-Labour-Insurance-Clothing-Reflective-Work-Uniforms-and-Safety-Gear.png_300x300.jpg",
+  },
+  {
+    id: "cor-01",
+    name: "Camisa Corporativa Ejecutiva",
+    category: "corporativos",
+    description: "Imagen elegante para equipos comerciales y administrativos.",
+    image: "https://www.visionuniformes.com.br/images/cache/aabcbc89e04cb6976f68d642e6238cfb_w300_h270_cp.jpg",
+  },
+  {
+    id: "cor-02",
+    name: "Blazer Empresarial ",
+    category: "corporativos",
+    description: "Acabado profesional para fortalecer presencia de marca.",
+    image: "https://tfbsn4.vteximg.com.br/arquivos/ids/2193376/blazer-docthos-slim-sarja-poliamida-44-003-preto-frontal-inverno-2025-609-936289-003-1.jpg?v=638875473952900000",
+  },
+  {
+    id: "cor-03",
+    name: "Polo Institucional Bordada",
+    category: "corporativos",
+    description: "Prenda versátil para eventos, oficina y atención al cliente.",
+    image: "https://images.tcdn.com.br/img/img_prod/696024/camisa_polo_bordada_esquadrilha_da_fumaa_eda_ver_1_20260208210619_b02b5ec86f1a.jpg",
+  },
+  {
+    id: "dep-01",
+    name: "Uniforme Fútbol Competitivo",
+    category: "deportivos",
+    description: "Tela ligera de secado rápido para alto rendimiento.",
+    image: "https://s.alicdn.com/@sc04/kf/HTB1DTZjavLsK1Rjy0Fbq6xSEXXal.jpg",
+  },
+  {
+    id: "dep-02",
+    name: "Kit Voleibol Profesional",
+    category: "deportivos",
+    description: "Diseño dinámico con libertad de movimiento en cada jugada.",
+    image: "https://s.alicdn.com/@sc04/kf/H0d0b854020674803999e434a088d5af1c.jpg",
+  },
+  {
+    id: "dep-03",
+    name: "Conjunto Entrenamiento Team",
+    category: "deportivos",
+    description: "Ideal para prácticas, torneos y presentación de equipos.",
+    image: "https://foot-star.com/wp-content/uploads/2024/09/Survetement-Bresil-Training-2024-2025-Bleu.jpg",
+  },
+];
