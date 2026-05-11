@@ -2,7 +2,7 @@ export const company = {
   shortName: "OGRE UNIFORMES",
   legalName: "OGRE - INDÚSTRIA E COMÉRCIO DE CONFECÇÕES E BRINDES LTDA",
   address: "R. Ressurreição, 50 - Jardim Aurora, Uberlândia - MG, 38410-536",
-  phone: "(34) 3219-7748",
+  phone: "(34) 8401-0581",
   website: "ogreuniformes.wordpress.com",
   locationCode: "2QP4+Q8 Uberlândia, Minas Gerais",
   schedule: "Cerrado · Abre a las 8 a.m. del lunes.",
