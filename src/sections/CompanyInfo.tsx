@@ -10,8 +10,9 @@ export default function CompanyInfo() {
 
           {/* Empresa */}
           <div>
-            <h3 className="text-xl font-black uppercase leading-snug text-[#f97316] md:text-2xl">
-              {company.legalName}
+            <h3 className="text-xl font-black uppercase leading-snug md:text-2xl">
+              <span className="text-white">Ogre —</span>{" "}
+              <span className="bg-gradient-to-b from-[#fdba74] to-[#c2410c] bg-clip-text text-transparent">Indústria de Uniformes</span>
             </h3>
             <p className="mt-4 leading-relaxed text-zinc-300 text-justify">
               Na Ogre Uniformes, a uniformização fortalece a primeira impressão,
@@ -24,8 +25,9 @@ export default function CompanyInfo() {
             </p>
 
             <div className="mt-10">
-              <h4 className="text-lg font-black uppercase text-[#f97316] md:text-xl">
-                Responsáveis
+              <h4 className="text-lg font-black uppercase md:text-xl">
+                <span className="text-white">Nossos</span>{" "}
+                <span className="bg-gradient-to-b from-[#fdba74] to-[#c2410c] bg-clip-text text-transparent">Responsáveis</span>
               </h4>
               <div className="mt-6 grid grid-cols-2 gap-6">
                 <ExecutiveCard src="/img/nadia.png"    name="Nadia Enriques"    role="Chefe de Operações Administrativas" />
@@ -39,7 +41,10 @@ export default function CompanyInfo() {
           {/* Contato */}
           <div id="contato" className="space-y-6 text-zinc-200">
             <div>
-              <h4 className="text-2xl font-black uppercase text-[#f97316]">Contato</h4>
+              <h4 className="text-2xl font-black uppercase">
+                <span className="text-white">Fale</span>{" "}
+                <span className="bg-gradient-to-b from-[#fdba74] to-[#c2410c] bg-clip-text text-transparent">Conosco</span>
+              </h4>
               <p className="mt-2 leading-relaxed text-zinc-400">
                 Fale com a nossa equipe e solicite um orçamento para uniformes
                 escolares, industriais, corporativos e esportivos.

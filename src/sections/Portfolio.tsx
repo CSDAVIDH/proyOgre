@@ -20,7 +20,8 @@ export default function Portfolio() {
       <div className="mx-auto w-full max-w-7xl px-4 py-14 md:px-8 md:py-20">
         <div className="mb-10">
           <h2 className="text-3xl font-black uppercase md:text-4xl">
-            Portfólio de Uniformes
+            <span className="text-white">Portfólio de</span>{" "}
+            <span className="bg-gradient-to-b from-[#fdba74] to-[#c2410c] bg-clip-text text-transparent">Uniformes</span>
           </h2>
           <p className="mt-3 max-w-xl text-zinc-400">
             Filtre por categoria para visualizar soluções desenvolvidas para cada necessidade.

@@ -8,10 +8,8 @@ export default function Clients() {
     <section className="relative overflow-hidden bg-[#0d0d0d] py-16 md:py-20">
       <div className="mb-10 px-4 text-center">
         <h2 className="text-3xl font-black uppercase tracking-wide md:text-4xl">
-          Nossos{" "}
-          <span className="bg-gradient-to-r from-[#f97316] to-[#cc0000] bg-clip-text text-transparent">
-            Clientes
-          </span>
+          <span className="text-white">Nossos</span>{" "}
+          <span className="bg-gradient-to-b from-[#fdba74] to-[#c2410c] bg-clip-text text-transparent">Clientes</span>
         </h2>
         <p className="mx-auto mt-3 max-w-md text-sm text-zinc-500">
           Empresas que confiam na qualidade e no profissionalismo da Ogre Uniformes.

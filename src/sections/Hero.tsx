@@ -8,7 +8,8 @@ export default function Hero() {
           {company.tagline}
         </p>
         <h1 className="max-w-4xl text-4xl font-black uppercase leading-tight md:text-6xl">
-          Uniformes Profissionais com Identidade, Força e Qualidade
+          <span className="text-white">Uniformes Profissionais</span>{" "}
+          <span className="bg-gradient-to-b from-[#fdba74] to-[#c2410c] bg-clip-text text-transparent">com Identidade, Força e Qualidade</span>
         </h1>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-zinc-300 md:text-lg">
           Desenvolvemos uniformes escolares, industriais, corporativos e esportivos
