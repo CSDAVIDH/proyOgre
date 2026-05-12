@@ -9,7 +9,7 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-20 border-b-2 border-[#cc0000] bg-[#111111]/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b-2 border-[#cc0000] bg-[#111111]/95 backdrop-blur">
       <div className="mx-auto w-full max-w-7xl px-4 md:px-8">
         {/* Logo + desktop nav */}
         <div className="flex items-center justify-between py-3 md:py-4">

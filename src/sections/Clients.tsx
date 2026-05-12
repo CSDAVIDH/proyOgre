@@ -6,6 +6,7 @@ export default function Clients() {
 
   return (
     <section className="relative overflow-hidden bg-[#0d0d0d] py-16 md:py-20">
+
       <div className="mb-10 px-4 text-center">
         <h2 className="text-3xl font-black uppercase tracking-wide md:text-4xl">
           <span className="text-white">Nossos</span>{" "}

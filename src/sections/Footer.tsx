@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-[#111111]">
       <div className="mx-auto w-full max-w-7xl px-4 py-8 md:px-8">
         <div className="flex flex-col items-center gap-2 text-center md:flex-row md:justify-between md:text-left">
-          <span className="text-sm font-black uppercase tracking-widest">
+          <span className="hidden text-sm font-black uppercase tracking-widest md:block">
             <span className="text-white">OGRE</span>{" "}
             <span className="bg-gradient-to-b from-[#fdba74] to-[#c2410c] bg-clip-text text-transparent">UNIFORMES</span>
           </span>

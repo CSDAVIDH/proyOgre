@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
+import BackgroundScene from "@/components/BackgroundScene";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -27,7 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${montserrat.variable} ${inter.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full">
+        <BackgroundScene />
+        <div className="relative z-10 flex min-h-full flex-col">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
