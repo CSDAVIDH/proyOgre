@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Remove-Item \"c:\\\\Users\\\\server\\\\Desktop\\\\proy Ogre\\\\ogre-uniformes\\\\src\\\\context\\\\language-context.tsx\" -Force)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\server\\\\Desktop\\\\proy Ogre\\\\ogre-uniformes\\\\src\\\\data\\\\i18n.ts\" -Force)",
+      "Bash(Write-Output \"OK\")"
+    ]
+  }
+}

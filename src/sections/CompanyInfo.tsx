@@ -13,7 +13,7 @@ export default function CompanyInfo() {
             <h3 className="text-xl font-black uppercase leading-snug text-[#f97316] md:text-2xl">
               {company.legalName}
             </h3>
-            <p className="mt-4 leading-relaxed text-zinc-300">
+            <p className="mt-4 leading-relaxed text-zinc-300 text-justify">
               Na Ogre Uniformes, a uniformização fortalece a primeira impressão,
               valoriza a marca e transmite profissionalismo em cada atendimento.
               Trabalhamos com tecidos de primeira linha, equipe qualificada,

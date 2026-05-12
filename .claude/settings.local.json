@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -m ' *)",
+      "Bash(grep -n \"{/\\\\*\\\\|//\\\\s*\\\\|{//\" \"/c/Users/server/Desktop/proy Ogre/ogre-uniformes/src/sections/Header.tsx\")",
+      "Bash(git rm *)"
+    ]
+  }
+}
