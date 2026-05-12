@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { clients } from "@/data/clients";
-import type { Client } from "@/data/clients";
+import { clients, type Client } from "@/data/clients";
 
 export default function Clients() {
   const track = [...clients, ...clients];

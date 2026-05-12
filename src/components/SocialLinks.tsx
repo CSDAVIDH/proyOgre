@@ -3,11 +3,11 @@ import { socialLinks } from "@/data/socialLinks";
 
 export default function SocialLinks() {
   return (
-    <div className="mt-10 rounded-xl border border-white/10 bg-white/5 p-4">
+    <div className="mt-10">
       <h5 className="text-sm font-black uppercase tracking-wide text-[#f97316]">
         Redes Sociais
       </h5>
-      <div className="mt-4 flex flex-wrap items-center gap-3">
+      <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
         {socialLinks.map((social) => (
           <a
             key={social.key}
