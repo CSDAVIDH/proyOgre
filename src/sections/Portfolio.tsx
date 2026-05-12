@@ -16,7 +16,7 @@ export default function Portfolio() {
   }, [activeCategory]);
 
   return (
-    <section id="portafolio">
+    <section id="portfolio">
       <div className="mx-auto w-full max-w-7xl px-4 py-14 md:px-8 md:py-20">
         <div className="mb-10">
           <h2 className="text-3xl font-black uppercase md:text-4xl">

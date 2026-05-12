@@ -2,9 +2,9 @@ import Image from "next/image";
 import { company } from "@/data/company";
 
 const navLinks = [
-  { href: "#portafolio", label: "Portfólio" },
+  { href: "#portfolio", label: "Portfólio" },
   { href: "#empresa", label: "Empresa" },
-  { href: "#contacto", label: "Contato" },
+  { href: "#contato", label: "Contato" },
 ];
 
 export default function Header() {

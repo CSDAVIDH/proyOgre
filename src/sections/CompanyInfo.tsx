@@ -7,7 +7,8 @@ export default function CompanyInfo() {
     <section id="empresa" className="border-y border-white/10 bg-[#111111]">
       <div className="mx-auto w-full max-w-7xl px-4 py-16 md:px-8 md:py-24">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
-          {/* Columna izquierda — Empresa */}
+
+          {/* Empresa */}
           <div>
             <h3 className="text-xl font-black uppercase leading-snug text-[#f97316] md:text-2xl">
               {company.legalName}
@@ -27,18 +28,18 @@ export default function CompanyInfo() {
                 Responsáveis
               </h4>
               <div className="mt-6 grid grid-cols-2 gap-6">
-                <ExecutiveCard src="/img/nadia.png" name="Nadia Enriques" />
-                <ExecutiveCard src="/img/clidivan.png" name="Clidivan da Silva" />
+                <ExecutiveCard src="/img/nadia.png"    name="Nadia Enriques"    role="Chefe de Operações Administrativas" />
+                <ExecutiveCard src="/img/clidivan.png" name="Clidivan da Silva" role="Diretor Geral" />
               </div>
 
               <SocialLinks />
             </div>
           </div>
 
-          {/* Columna derecha — Contacto */}
-          <div id="contacto" className="space-y-6 text-zinc-200">
+          {/* Contato */}
+          <div id="contato" className="space-y-6 text-zinc-200">
             <div>
-              <h4 className="text-2xl font-black uppercase text-[#f97316]">Contacto</h4>
+              <h4 className="text-2xl font-black uppercase text-[#f97316]">Contato</h4>
               <p className="mt-2 leading-relaxed text-zinc-400">
                 Fale com a nossa equipe e solicite um orçamento para uniformes
                 escolares, industriais, corporativos e esportivos.
@@ -65,7 +66,7 @@ export default function CompanyInfo() {
                 >
                   {company.address}
                   <span className="text-[10px] font-semibold tracking-wide text-[#f97316] opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-                    → Ir a Google Maps
+                    → Ir para o Google Maps
                   </span>
                 </a>
               </p>
@@ -89,7 +90,7 @@ export default function CompanyInfo() {
               </div>
               <div>
                 <label htmlFor="email" className="mb-1.5 block text-sm font-semibold text-white">
-                  Email
+                  E-mail
                 </label>
                 <input
                   id="email"

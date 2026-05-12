@@ -15,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ogre Uniformes | Portafolio Corporativo",
+  title: "Ogre Uniformes | Portfólio Corporativo",
   description:
-    "Sitio corporativo de Ogre Uniformes, especialistas en uniformes escolares, industriales, corporativos y deportivos.",
+    "Site corporativo da Ogre Uniformes, especialistas em uniformes escolares, industriais, corporativos e esportivos.",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${montserrat.variable} ${inter.variable} h-full antialiased`}>
+    <html lang="pt-BR" className={`${montserrat.variable} ${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

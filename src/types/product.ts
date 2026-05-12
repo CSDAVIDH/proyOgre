@@ -13,4 +13,5 @@ export interface Product {
   category: ProductCategory;
   description: string;
   image: string;
+  images?: string[];
 }

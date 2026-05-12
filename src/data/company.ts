@@ -6,9 +6,5 @@ export const company = {
   whatsappNumber: "553484010581",
   locationCode: "https://maps.app.goo.gl/CcQPyPTw8AixAAL38",
   schedule: "Aberto de segunda a sexta-feira, das 8h às 17h.",
-  tagline: "Fuerza • Fuego • Profesionalismo",
-  heroTitle:
-    "Uniformes corporativos de alto impacto para equipos que quieren destacar",
-  heroDescription:
-    "Creamos uniformes escolares, industriales, corporativos y deportivos con confección robusta, acabados premium y una identidad visual alineada a tu marca.",
+  tagline: "Força • Fogo • Profissionalismo",
 };

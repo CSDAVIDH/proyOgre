@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "tfbsn4.vteximg.com.br" },
       { protocol: "https", hostname: "images.tcdn.com.br" },
       { protocol: "https", hostname: "foot-star.com" },
+      { protocol: "https", hostname: "placehold.co" },
     ],
   },
 };
