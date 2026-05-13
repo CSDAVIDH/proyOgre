@@ -10,35 +10,26 @@ const config: ISourceOptions = {
   background: { color: { value: "transparent" } },
   particles: {
     number: {
-      value: 7,
-      density: { enable: true, width: 900 },
+      value: 160,
+      density: { enable: true, width: 800 },
     },
-    color: {
-      value: ["#7c1d3a", "#3b1a7a", "#7a3010", "#6b1535"],
-    },
-    shape: {
-      type: "polygon",
-      options: {
-        polygon: { sides: 6 },
-      },
-    },
+    color: { value: "#ffffff" },
+    shape: { type: "circle" },
     opacity: {
-      value: { min: 0.35, max: 0.70 },
-    },
-    size: {
-      value: { min: 50, max: 160 },
+      value: { min: 0, max: 1 },
       animation: {
         enable: true,
-        speed: 6,
+        speed: 1,
         sync: false,
-        startValue: "random",
-        destroy: "none",
       },
+    },
+    size: {
+      value: { min: 0.3, max: 3 },
     },
     links: { enable: false },
     move: {
       enable: true,
-      speed: 2,
+      speed: 1,
       direction: "none",
       random: true,
       straight: false,
@@ -46,10 +37,23 @@ const config: ISourceOptions = {
     },
   },
   interactivity: {
+    detectsOn: "canvas",
     events: {
-      onHover: { enable: false },
-      onClick: { enable: false },
+      onHover: { enable: true, mode: "bubble" },
+      onClick: { enable: true, mode: "repulse" },
       resize: { enable: true },
+    },
+    modes: {
+      bubble: {
+        distance: 250,
+        size: 0,
+        duration: 2,
+        opacity: 0,
+      },
+      repulse: {
+        distance: 400,
+        duration: 0.4,
+      },
     },
   },
 };

@@ -65,16 +65,16 @@ export default function BackgroundScene() {
         }}
       />
 
-      {/* ── 5. Wave image — pantalla completa ───────────────── */}
+      {/* ── 5. Pattern texture — costura/confecção ──────────── */}
       <div
         className="pointer-events-none absolute inset-0"
         style={{
-          opacity: 0.55,
+          opacity: 0.12,
           mixBlendMode: "screen",
         }}
       >
         <Image
-          src="/img/waves2.png"
+          src="/img/pattern.png"
           alt=""
           fill
           sizes="100vw"
